@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Aktivitäten</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #4CAF50, #2196F3, #FF5722);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .btn {
+            display: block;
+            width: 80%;
+            margin: 15px auto;
+            padding: 15px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.2s ease-in-out;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        .hike { background: #4CAF50; }
+        .bike { background: #2196F3; }
+        .swim { background: #FF5722; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wähle eine Aktivität</h1>
+        <a href="hike.html" class="btn hike">Hike</a>
+        <a href="bike.html" class="btn bike">Bike</a>
+        <a href="swim.html" class="btn swim">Swim</a>
+    </div>
+</body>
+</html>
